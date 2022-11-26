@@ -4,7 +4,7 @@
 // total de mulheres;
 // média dos pesos das mulheres.
 let pesos = [62, 72, 83, 64, 70, 66, 77, 88, 81, 110]
-let idades = [15, 20, 25, 30, 35, 40, 45, 50, 55, 60]
+let idades2 = [15, 20, 25, 30, 35, 40, 45, 50, 55, 60]
 let generos = ['M', 'F', 'M', 'F', 'M', 'F', 'M', 'F', 'M', 'F']
 
 let totalHomens = 0
@@ -14,7 +14,7 @@ let mediaPessoMulheres = 0
 
 for (let i = 0; i < generos.length; i++) {
     const genero = generos[i];
-    const idade = idades[i];
+    const idade = idades2[i];
     const peso = pesos[i];
 
     if (genero === 'M') {
@@ -32,4 +32,4 @@ console.log(`
     Total idade homens ${totalIdadeHomens} anos
     Total de mulheres ${totalMulheres} 
     Média dos pesos das mulheres ${mediaPessoMulheres}kg
-    `)
+`)

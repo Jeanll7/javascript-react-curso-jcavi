@@ -1,4 +1,3 @@
-// codigo da aula
 // 7. Cada espectador de um cinema respondeu a um questionário no qual constava sua
 // idade e a sua opinião em relação ao filme:
 // ótimo: 3
@@ -8,6 +7,8 @@
 // a média das idades das pessoas que responderam ótimo;
 // a quantidade de pessoas que responderam regular;
 // a porcentagem de pessoas que responderam bom entre todos os espectadores analisados.
+// ===================================================================================
+// codigo da aula
 let pesquisas = [1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3];
 let idades = [10, 20, 30, 40, 50, 10, 20, 30, 40, 50, 10, 20, 30, 40, 50];
 
@@ -31,7 +32,7 @@ for (let i = 0; i < pesquisas.length; i++) {
     }
 }
 mediaOtimo = totalOtimo / qtdOtimo;
-alert(`
+console.log(`
     A média das pessoas que responderam ótimo: ${mediaOtimo}
     Pessoas que votaram regular: ${qtdRegular}
     % de votos bom: ${(qtdBom * 100) / pesquisas.length}
