@@ -2,8 +2,4 @@
 
 
 
-
-
-
-
-console.log('A soma dos valores do array é ${(resultado)}')
+// console.log(`A soma dos valores do array é ${arrayNumeros(total)}`)
