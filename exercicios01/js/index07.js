@@ -7,13 +7,13 @@
 // a média das idades das pessoas que responderam ótimo;
 // a quantidade de pessoas que responderam regular;
 // a porcentagem de pessoas que responderam bom entre todos os espectadores analisados.
-// ===================================================================================
-// codigo da aula
 let pesquisas = [1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3];
+
 let idades = [10, 20, 30, 40, 50, 10, 20, 30, 40, 50, 10, 20, 30, 40, 50];
 
 let totalOtimo = 0;
 let qtdOtimo = 0;
+
 let qtdRegular = 0;
 let qtdBom = 0;
 
