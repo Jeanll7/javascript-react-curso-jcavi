@@ -2,7 +2,8 @@
 // novo salário, sabendo que o mesmo teve um aumento de 10%. 
 
 const nome = 'Jean'
-const salario = 3000
-const novoSalario = (salario / 10) + salario
+const salario = 2000
+
+const novoSalario = salario * 1.1
 
 console.log(`O novo salário de ${nome} é ${novoSalario}`)
