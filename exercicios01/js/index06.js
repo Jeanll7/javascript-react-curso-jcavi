@@ -34,13 +34,13 @@ console.log(`
 
 // ==============================================================================
 
-//  A maior e a menor altura do grupo; ✔️
-const maiorAltura1 = Math.max(...alturas)
-const menorAltura1 = Math.min(...alturas)
+// //  A maior e a menor altura do grupo; ✔️
+// const maiorAltura1 = Math.max(...alturas)
+// const menorAltura1 = Math.min(...alturas)
 
-console.log(`O mais alto tem: ${maiorAltura}, O mais baixo tem: ${menorAltura}`)
+// console.log(`O mais alto tem: ${maiorAltura}, O mais baixo tem: ${menorAltura}`)
 
-//  O número de pessoas com mais de 1.81 de altura. ✔️
-const qtdMaiorQ181 = alturas.filter(n => n > 1.81)
+// //  O número de pessoas com mais de 1.81 de altura. ✔️
+// const qtdMaiorQ181 = alturas.filter(n => n > 1.81)
 
-console.log(`O número de pessoas com mais de 1.81 de altura é ${qtdMaiorQ181.length}`)
+// console.log(`O número de pessoas com mais de 1.81 de altura é ${qtdMaiorQ181.length}`)
