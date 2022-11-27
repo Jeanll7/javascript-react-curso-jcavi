@@ -3,12 +3,12 @@
 function Somar(array) {
     let total = 0
     for (let i = 0; i < array.length; i++) {
-        if (array[i] >= 2) {
+        if (array[i] >= 1) {
             total += array[i]
         }
     }
     return total
 }
-let array = [10, 12, 15, 23]
+let array = [10, 5, 10, 2]
 
 console.log(`A soma dos valores do array é ${Somar(array)}`)
