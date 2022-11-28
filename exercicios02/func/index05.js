@@ -9,7 +9,10 @@ function mediaSomaArr(numeros) {
         const element = numeros[i]
         total += element
     }
-    console.log(`A média dos valores do array é ${total/numeros.length}`)
+
+    let resultado = total / numeros.length
+    return resultado
 }
 
-mediaSomaArr(numArray)
+let resultado = mediaSomaArr(numArray)
+console.log(`A média dos valores do array é ${resultado}`)
