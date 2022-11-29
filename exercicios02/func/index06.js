@@ -8,3 +8,10 @@
 //  vetor[4] = "c";
 //  vetor[5] = "b";
 // Sabemos que a única letra que não possui repetição está na posição [4], elemento “c”. Então, crie uma função que retornar este elemento.
+
+let vetor = ['a', 'b', 'a', 'a', 'c', 'b']
+
+function arrayLetras(arg) {
+    return arg
+}
+console.log(arrayLetras(vetor))
