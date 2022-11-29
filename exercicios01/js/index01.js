@@ -1,6 +1,6 @@
 //  1. Faça um programa que entre com três números, faça a média aritmética e mostre o resultado.
 
-const numeros = [5, 33, 25]
+const numeros = [5, 20, 35]
 let total1 = 0
 
 for (let i = 0; i < numeros.length; i++) {
