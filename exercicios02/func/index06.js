@@ -15,3 +15,13 @@ function arrayLetras(arg) {
     return arg
 }
 console.log(arrayLetras(vetor))
+
+// function arrayLetras(arr) {
+//     let counts = {}
+//     arr.forEach((count) => {
+//         counts[count] = (counts[count] || 0) + 1
+//     })
+//     return counts
+// }
+
+// console.log(arrayLetras(['a', 'b', 'a', 'a', 'c', 'b']))
