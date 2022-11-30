@@ -9,19 +9,12 @@
 //  vetor[5] = "b";
 // Sabemos que a única letra que não possui repetição está na posição [4], elemento “c”. Então, crie uma função que retornar este elemento.
 
+
 let vetor = ['a', 'b', 'a', 'a', 'c', 'b']
 
-function arrayLetras(arg) {
-    return arg
+function retornaLetraC() {
+    return true
 }
-console.log(arrayLetras(vetor))
 
-// function arrayLetras(arr) {
-//     let counts = {}
-//     arr.forEach((count) => {
-//         counts[count] = (counts[count] || 0) + 1
-//     })
-//     return counts
-// }
-
-// console.log(arrayLetras(['a', 'b', 'a', 'a', 'c', 'b']))
+vetor.push('c')
+console.log(`Duplicando letra c: ${vetor}`)
