@@ -10,11 +10,11 @@
 // Sabemos que a única letra que não possui repetição está na posição [4], elemento “c”. Então, crie uma função que retornar este elemento.
 
 
-let vetor = ['a', 'b', 'a', 'a', 'c', 'b']
+const vetor = ['a', 'b', 'a', 'a', 'c', 'b']
+vetor.push('c')
 
 function retornaLetraC() {
-    return true
+    return vetor
 }
 
-vetor.push('c')
 console.log(`Duplicando letra c: ${vetor}`)
