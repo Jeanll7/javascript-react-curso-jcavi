@@ -14,6 +14,7 @@ function retornaLetraC() {
     let vetor = ['a', 'b', 'a', 'a', 'c', 'b']
     vetor.push('c')
     console.log(`Repetir letra c: ${vetor}`)
+        // return vetor
 }
 retornaLetraC()
 
