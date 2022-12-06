@@ -9,7 +9,36 @@
 //  vetor[5] = "b";
 // Sabemos que a única letra que não possui repetição está na posição [4], elemento “c”. Então, crie uma função que retornar este elemento.
 
+// aula
+let vetor = ["a", "b", "a", "a", "c", "b"]
 
+function verificarItemIsolado() {
+    let itemIsolado = null
+
+    //a
+    letras.forEach(letra => {
+        letNumeroRepeticoes = 0
+
+        letra.forEach(letraComparacao => {
+            if (letra == letraComparacao) {
+                letNumeroRepeticoes++
+            }
+        });
+
+        if (letNumeroRepeticoes === 1) {
+            itemIsolado == letra
+        }
+    });
+    if (itemIsolado) {
+        return itemIsolado
+    } else {
+        return 'Não existe itens isolados no array'
+    }
+}
+
+
+
+// execício
 function retornaLetraC() {
     let vetor = ['a', 'b', 'a', 'a', 'c', 'b']
     vetor.push('c')
