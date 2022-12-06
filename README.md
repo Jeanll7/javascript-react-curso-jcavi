@@ -2,4 +2,4 @@
 
 <br>
 
-![JCAVI](jcavi.png)
+![JCAVI](/img/jcavi.png)
