@@ -1,7 +1,7 @@
 
 <p align="center">
 
-## JCAVI Treinamento em TI
+## JCAVI Treinamentos em TI
 </p>
 
 <br>
