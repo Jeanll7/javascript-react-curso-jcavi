@@ -1,0 +1,40 @@
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.form input {
+    margin: .5rem auto;
+    padding: .6rem 1.5rem;
+    border-radius: 4px;
+    border: none;
+}
+
+.button {
+    margin-top: 1rem;
+}
+
+.table-main {
+    color: #000;
+    max-width: 1120px;
+    margin: 1rem;
+    padding: 2rem 6rem;
+    border-radius: 2px;
+    background-color: #d9e9d6;
+}
