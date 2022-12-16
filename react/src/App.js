@@ -22,8 +22,6 @@ function App() {
     setPlaca("");
   }
 
-  // function verificarCastrado() {}
-
   return (
     <>
       <main className="container">
@@ -46,11 +44,14 @@ function App() {
           <button className="button" onClick={cadastrarVeiculo}>
             Cadastrar
           </button>
+          <button className="button" onClick={pesquisarVeiculo}>
+            Pesquisar
+          </button>
         </div>
         <div className="table-main">
           <table className="table">
             <tr className="tr">
-              <th>Nome Veiculo -</th>
+              <th>Veiculo</th>
               <th>Placa</th>
             </tr>
             {veiculos.map((veiculo) => {
